@@ -41,7 +41,7 @@ public class TestCase {
 	    driver.findElement(By.name("email")).sendKeys("natalia@adsoft.com");
 	    driver.findElement(By.name("age")).clear();
 	    driver.findElement(By.name("age")).sendKeys("22");
-	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[2]/following::div[2]")).click();
+	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[2]/following::div[1]")).click();
 	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Male'])[1]/following::div[1]")).click();
 	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Woah!'])[1]/following::button[1]")).click();
 	    driver.findElement(By.xpath("//i")).click();
